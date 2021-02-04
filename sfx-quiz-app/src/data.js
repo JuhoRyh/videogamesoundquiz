@@ -57,6 +57,16 @@ export const gameData = [
     audio: "csgo"
   },
   {
+    title: "Call of Duty: Black Ops",
+    names: [
+      "black ops",
+      "cod black ops",
+      "call of duty black ops",
+      "call of duty: black ops"
+    ],
+    audio: "black_ops"
+  },
+  {
     title: "Pokemon GO",
     names: [
       "pokemon go"
@@ -66,7 +76,8 @@ export const gameData = [
   {
     title: "Trials Fusion",
     names: [
-      "trials fusion"
+      "trials fusion",
+      "trials"
     ],
     audio: "trials_fusion"
   },
@@ -97,7 +108,7 @@ export const gameData = [
     audio: "hearthstone"
   },
   {
-    title: "Need for Speed: Most Wanter",
+    title: "Need for Speed: Most Wanted",
     names: [
       "need for speed: most wanted",
       "nfs most wanted",
@@ -138,6 +149,15 @@ export const gameData = [
       "rottatuille"
     ],
     audio: "ratatouille"
+  },
+  {
+    title: "Detroit: Become Human",
+    names: [
+      "detroit",
+      "detroit become human",
+      "detroit: become human"
+    ],
+    audio: "detroit"
   },
   {
     title: "Super Smash Bros Ultimate",
@@ -184,6 +204,14 @@ export const gameData = [
        "smite"
      ],
      audio: "smite"
+   },
+   {
+     title: "Overwatch",
+     names: [
+       "overwatch",
+       "ow"
+     ],
+     audio: "overwatch"
    },
    {
     title: "Mikes Tyson's Punch-Out!!",
@@ -239,7 +267,8 @@ export const gameData = [
      title: "Yakuza Kiwami",
      names: [
        "yakuza kiwami",
-       "yakuza 1"
+       "yakuza 1",
+       "yakuza"
      ],
      audio: "yakuza_kiwami"
    },
