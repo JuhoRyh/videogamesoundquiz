@@ -1,14 +1,5 @@
 export const gameData = [
   {
-    title: "Among Us",
-    names: [
-      "amongus",
-      "among us",
-      "mongos"
-    ],
-    audio: "among_us"
-  },
-  {
     title: "Ape Escape 2",
     names: [
       "apeescape2",
@@ -18,6 +9,15 @@ export const gameData = [
     audio: "ape_escape_2"
   },
   {
+    title: "Donkey Kong Country",
+    names: [
+      "donkey kong",
+      "donkey kong country",
+      "dk country",
+    ],
+    audio: "donkey_kong_country"
+  },
+  {
     title: "Bloons Tower Defense 5",
     names: [
       "bloons td5",
@@ -25,6 +25,15 @@ export const gameData = [
       "bloons tower defense 5"
     ],
     audio: "bloons"
+  },
+  {
+    title: "GoldenEye 007",
+    names: [
+      "goldeneye 007",
+      "007",
+      "goldeneye"
+    ],
+    audio: "goldeneye"
   },
   {
     title: "Candy Crush Saga",
@@ -48,22 +57,18 @@ export const gameData = [
     audio: "csgo"
   },
   {
-    title: "Donkey Kong Country",
+    title: "Pokemon GO",
     names: [
-      "donkey kong",
-      "donkey kong country",
-      "dk country",
+      "pokemon go"
     ],
-    audio: "donkey_kong_country"
+    audio: "pokemon_go"
   },
   {
-    title: "GoldenEye 007",
+    title: "Trials Fusion",
     names: [
-      "goldeneye 007",
-      "007",
-      "goldeneye"
+      "trials fusion"
     ],
-    audio: "goldeneye"
+    audio: "trials_fusion"
   },
   {
     title: "Gran Turismo 3: A-Spec",
@@ -109,31 +114,21 @@ export const gameData = [
     audio: "phasmophobia"
   },
   {
+    title: "Sly 2: Band of Thieves",
+    names: [
+      "sly 2",
+      "sly 2: band of thieves",
+      "sly 2 band of thieves"
+    ],
+    audio : "sly_2"
+  },
+  {
     title: "Plants vs Zombies",
     names: [
       "pvz",
       "plants vs zombies",
     ],
     audio: "plants_vs_zombies"
-  },
-  {
-    title: "Pokemon GO",
-    names: [
-      "pokemon go"
-    ],
-    audio: "pokemon_go"
-  },
-  {
-    title: "Mikes Tyson's Punch-Out!!",
-    names: [
-      "punch out",
-      "punch-out",
-      "mike tysons punch out",
-      "mike tyson's punch out",
-      "mike tysons punch-out",
-      "mike tyson's punch-out!!"
-    ],
-    audio: "punch_out"
   },
   {
     title: "Ratatouille",
@@ -143,6 +138,14 @@ export const gameData = [
       "rottatuille"
     ],
     audio: "ratatouille"
+  },
+  {
+    title: "Super Smash Bros Ultimate",
+    names: [
+      "super smash bros ultimate",
+      "smash bros"
+    ],
+    audio: "smash_bros"
   },
   {
     title: "ROBLOX",
@@ -159,6 +162,15 @@ export const gameData = [
     audio: "rocket_league"
   },
   {
+    title: "Among Us",
+    names: [
+      "amongus",
+      "among us",
+      "mongos"
+    ],
+    audio: "among_us"
+  },
+  {
     title: "Runescape",
     names: [
       "runescape",
@@ -166,23 +178,6 @@ export const gameData = [
     ],
     audio: "runescape"
   },
-  {
-    title: "Sly 2: Band of Thieves",
-    names: [
-      "sly 2",
-      "sly 2: band of thieves",
-      "sly 2 band of thieves"
-    ],
-    audio : "sly_2"
-  },
-   {
-     title: "Super Smash Bros Ultimate",
-     names: [
-       "super smash bros ultimate",
-       "smash bros"
-     ],
-     audio: "smash_bros"
-   },
    {
      title: "Smite",
      names: [
@@ -190,6 +185,25 @@ export const gameData = [
      ],
      audio: "smite"
    },
+   {
+    title: "Mikes Tyson's Punch-Out!!",
+    names: [
+      "punch out",
+      "punch-out",
+      "mike tysons punch out",
+      "mike tyson's punch out",
+      "mike tysons punch-out",
+      "mike tyson's punch-out!!"
+    ],
+    audio: "punch_out"
+  },
+   {
+    title: "Undertale",
+    names: [
+      "undertale"
+    ],
+    audio: "undertale"
+  },
    {
      title: "Spyro: Year of the Dragon",
      names: [
@@ -200,13 +214,6 @@ export const gameData = [
      audio: "spyro"
    },
    {
-     title: "Stardew Valley",
-     names: [
-       "stardew valley"
-     ],
-     audio: "stardew_valley"
-   },
-   {
      title: "Toy Story 2: Buzz Lightyear to the Rescue!",
      names: [
        "toy story 2",
@@ -215,26 +222,19 @@ export const gameData = [
      audio: "toy_story_2"
    },
    {
-     title: "Trials Fusion",
-     names: [
-       "trials fusion"
-     ],
-     audio: "trials_fusion"
-   },
-   {
-     title: "Undertale",
-     names: [
-       "undertale"
-     ],
-     audio: "undertale"
-   },
-   {
      title: "Wii Sports",
      names: [
        "wii sports"
      ],
      audio: "wii_sports"
    },
+   {
+    title: "Stardew Valley",
+    names: [
+      "stardew valley"
+    ],
+    audio: "stardew_valley"
+  },
    {
      title: "Yakuza Kiwami",
      names: [

@@ -6,6 +6,7 @@ import './index.css'
 
 const App = () => {
   const [score, setScore] = useState(0)
+  const [surrender, setSurrender] = useState(false)
 
   console.log(gameData)
 
@@ -13,13 +14,20 @@ const App = () => {
     setScore(score + 1)
   }
 
+  const surrenderHandler = () => {
+    setSurrender(true)
+  }
+
   return(
-    <div className="bg-gray-700 flex-col h-screen">
+    <div className="bg-gray-700 min-h-screen">
       <h1 className="text-3xl text-center p-6 text-white">Videogame Sound Quiz</h1>
       <div className="m-auto w-screen grid grid-cols-1 md:grid-cols-3">
-        {gameData.map(game => {return <QuestionCard key={game.title} game={game} addScore={addScore} />})}
+        {gameData.map(game => {return <QuestionCard key={game.title} game={game} addScore={addScore} surrender={surrender} />})}
       </div>
       <Score score={score} sum={gameData.length} />
+      <div className="flex flex-col items-center">
+        <button className="p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-400" onClick={surrenderHandler}>Surrender</button>
+      </div>
     </div>
   )
 } 
