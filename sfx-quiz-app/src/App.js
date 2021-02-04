@@ -8,8 +8,6 @@ const App = () => {
   const [score, setScore] = useState(0)
   const [surrender, setSurrender] = useState(false)
 
-  console.log(gameData)
-
   const addScore = () => {
     setScore(score + 1)
   }
