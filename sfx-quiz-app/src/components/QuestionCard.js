@@ -11,7 +11,7 @@ const QuestionCard = (props) => {
   }
 
   const changeHandler = (event) => {
-    if(props.game.names.includes(event.target.value.toUpperCase())){
+    if(props.game.names.includes(event.target.value.toLowerCase())){
       setCorrect(true)
       props.addScore()
       setStyle('bg-green-400')

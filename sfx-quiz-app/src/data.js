@@ -82,8 +82,8 @@ export const gameData = [
   {
     title: "Harry Potter and the Chamber of Secrets",
     names: [
-      "Harry potter",
-      "Harri potter",
+      "harry potter",
+      "harri potter",
       "harry potter and the chamber of secrets"
     ],
     audio: "harry_potter"
