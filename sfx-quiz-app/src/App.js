@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import QuestionCard from './components/QuestionCard'
 import Score from './components/Score'
-import {gameData} from './data'
+import {quoteData} from './quoteData'
 import './index.css'
 
 const App = () => {
@@ -20,9 +20,9 @@ const App = () => {
     <div className="bg-gray-700 min-h-screen">
       <h1 className="text-3xl text-center p-6 text-white">Videogame Sound Quiz</h1>
       <div className="m-auto w-screen grid grid-cols-1 md:grid-cols-3">
-        {gameData.map(game => {return <QuestionCard key={game.title} game={game} addScore={addScore} surrender={surrender} />})}
+        {quoteData.map(game => {return <QuestionCard key={game.title} game={game} addScore={addScore} surrender={surrender} />})}
       </div>
-      <Score score={score} sum={gameData.length} />
+      <Score score={score} sum={quoteData.length} />
       <div className="flex flex-col items-center">
         <button className="p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-400" onClick={surrenderHandler}>Surrender</button>
       </div>
