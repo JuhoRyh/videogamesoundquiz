@@ -21,7 +21,7 @@ const App = () => {
       <h1 className="text-3xl text-center p-6 text-white">Videogame Sound Quiz</h1>
       <div className="m-auto w-screen grid grid-cols-1 md:grid-cols-3">
         {quoteData.map(game => {return <QuestionCard key={game.title} game={game} addScore={addScore} surrender={surrender} />})}
-      </div>
+      </div>-
       <Score score={score} sum={quoteData.length} />
       <div className="flex flex-col items-center">
         <button className="p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-400" onClick={surrenderHandler}>Surrender</button>
