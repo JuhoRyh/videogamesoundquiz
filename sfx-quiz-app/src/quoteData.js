@@ -164,10 +164,11 @@ export const quoteData = [
     audio: "tidus"
   },
   {
-    title: "Sly Racoon (Sly 2)",
+    title: "Sly Cooper (Sly 2)",
     names: [
       "sly",
-      "sly racoon"
+      "sly racoon",
+      "sly cooper"
     ],
     audio: "sly"
   },
